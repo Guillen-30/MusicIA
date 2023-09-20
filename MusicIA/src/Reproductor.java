@@ -2,10 +2,10 @@ public class Reproductor {
 
     private Cancion CancionActual;
 
-    generarCancion(PromptFinal prompt){
-        //Se llama a la IA para generar una cancion con el prompt de la letra y el o los generos deseados
-        CancionActual=Cancion;
-        return Cancion;
+    Cancion generarCancion(Frase frases, Genero generos){
+        //Se llama a la IA para generar una cancion con las frases creadas como inspiracion y los generos segun se hayan ingresado
+        // CancionActual=cancion;
+        // return cancion;
     }
 
     public void reproducirCancion(Cancion CancionActual){
