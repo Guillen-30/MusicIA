@@ -1,9 +1,11 @@
-public abstract class PromptLetra {
+public class PromptLetra {
 	private String frase;
 	
 	public PromptLetra(String frase) {
 		this.frase = frase;
 	}
-	
-	public abstract String generarLetra();
+
+	public void agregarFrase(String nuevaFrase){
+		this.frase = frase + ", " + nuevaFrase;
+	}
 }

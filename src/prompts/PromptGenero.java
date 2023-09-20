@@ -6,4 +6,8 @@ public class PromptGenero {
 		this.genero = genero;
 		this.cantidad++;
 	}
+
+	public void agregarGeneroFusion(PromptGenero generoFusion) {
+        Cancion.PromptGenero=genero+" "+generoFusion;
+    } 
 }

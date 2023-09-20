@@ -9,9 +9,5 @@ public abstract class Cancion {
         this.letra = letra;
     }
 
-    public abstract void reproducir();
-
-    public void agregarGeneroFusion(PromptGenero generoFusion) {
-        Cancion.PromptGenero=genero+" "+generoFusion;
-    }
+    public abstract Cancion generarCancion();
 }
