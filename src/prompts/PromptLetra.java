@@ -1,9 +1,8 @@
-
 public abstract class PromptLetra {
-	private String texto;
+	private String frase;
 	
-	public PromptLetra(String texto) {
-		this.texto = texto;
+	public PromptLetra(String frase) {
+		this.frase = frase;
 	}
 	
 	public abstract String generarLetra();
