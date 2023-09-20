@@ -1,4 +1,4 @@
-public class GeneroCancion {
+public class GeneroCancion extends Genero{
 	private Genero mainGenero;
 	private Genero subGenero1;
 	private Genero subGenero2;
